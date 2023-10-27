@@ -9,7 +9,3 @@ with something interesting to show!
 
 So far liking all of it! And it's finally time to code after Linux learning and HTML basics.
 I'm excited!!!
-  ~~      ~~
-( o )   ( 0 )
-    \  /
-     \/
