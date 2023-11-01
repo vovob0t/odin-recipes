@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Edu TAS Beginner', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: burlywood;
+
+    font-size: large;
+}
+
+.main_heading,
+.section_heading{
+    padding: 20px 0;
+
+    text-transform: uppercase;
+}
+
+.main_heading{
+    font-size: 70px;
+    text-align: center;
+
+    background-color: rgb(184, 153, 112, 0.2);
+    color: rgb(72, 67, 67);
+
+    margin: 0 60px 20px;
+}
+
+.section_heading{
+    margin: 0;
+    color: rgb(37, 27, 96);
+}
+
+.img
+{
+    border-style: solid;
+    border-radius: 35px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.img.horizontal{
+    width: 400px;
+    height: auto;
+}
+
+.img.vertical{
+    height: 400px;
+    width: auto;
+}
+
+.list{
+    margin-left: 20px;
+}
+
+.list li{
+
+    font-size: calc(100% + 4px);
+    font-weight: 100;
+    font-style: italic;
+
+    padding: 2px;
+
+    outline-style: groove;
+    outline-width: 0.5px;
+}
+
+.list.ingredients li{
+    list-style: square;
+
+    color: rgb(103, 10, 29);
+}
+
+.list.instructions li{
+    list-style: decimal-leading-zero;
+
+    background-color: rgb(177, 210, 237);
+}
