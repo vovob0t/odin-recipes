@@ -51,7 +51,13 @@ body{
     margin-left: 20px;
 }
 
-.list li{
+.list.recipes{
+    font-size: larger;
+    color: brown;
+}
+
+.list.ingredients li,
+.list.instructions li{
 
     font-size: calc(100% + 4px);
     font-weight: 100;
